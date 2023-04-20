@@ -1,8 +1,84 @@
-body {
+body{
+    margin:0;
+}
+
+h1{
+    margin:0;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    display:flex;
+}
+
+
+nav ul li{
+    padding-left: 10px;
+    list-style: none;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.notification{
+    height: 35px;
+    background-color: blue;
+    color: white;
     text-align: center;
 }
 
-#inline{
-    display:inline-block;
-    padding: 10px;
+.hero{
+    height:500px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-AB-TEST-FY23SPR:VP4-1399x600");
+    background-repeat: no-repeat;
+}
+
+
+.products{
+    background: plum;
+    display: flex;
+    justify-content: center;
+}
+
+
+.products div{
+    padding-top: 30px;
+    height:260px;
+}
+
+.products img{
+    padding-right: 60px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 480px;
+    left: 16px;
+  }
+
+
+.icon{
+    padding-top: 20px;
+    background-color: yellow;
+    display:flex;
+    justify-content:center;
+}
+
+.icon div{
+    padding-right: 10px;
+}
+
+nav ul li img{
+    height: 20px;
+}
+
+.products div img{
+    height: 120px;
 }
